@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Pixelify Sans', cursive;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 16px;
+    border-bottom: 1px solid black
+}
+li:hover{
+    background-color: red;
+}
+.navlinks{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.imagebanner{
+    background-image: url(games-banner-1140x400-1.png);
+    padding: 50px 0;
+    background-size: cover;
+}
+h1{
+    color: red;
+    text-align: center;
+    background-color: orange;
+}
+
+.introduction{
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.ourgames{
+    text-align: center;
+    margin: 32px;
+}
+@media screen and (min-width: 700px){
+    ul{
+    text-align: right;
+    }
+    li{
+    display: inline-block;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+    }
+    .game{
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    }
+}
